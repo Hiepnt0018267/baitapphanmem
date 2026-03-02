@@ -34,7 +34,15 @@
                     <li><a href="{{ route('category.create') }}">➕ Thêm mới</a></li>
                 </ul>
             </li>
-            </ul>
+            
+            <li style="margin-top: 15px;">
+                <strong>Quản lý Sản phẩm</strong>
+                <ul class="submenu">
+                    <li><a href="{{ route('product.index') }}">📄 Xem danh sách</a></li>
+                    <li><a href="{{ route('product.create') }}">➕ Thêm mới</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 
     <div class="content">
